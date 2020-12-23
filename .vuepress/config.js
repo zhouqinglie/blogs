@@ -105,6 +105,20 @@ module.exports = {
     "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
     "record": "你的备案号 ", //icp备案
     "startYear": "2020",
+    "info": "一名追求技术喜欢安静的程序猿，目前在北京某互联网公司担任高级后台java开发。",
+    "socials":{
+      "github" : "https://github.com/GodLikeZeal", //github
+      "gitlub" : false, //gitlub
+      "gitee" : "https://gitee.com/GodLikeZeal", //gitee
+      "jianshu" : "https://www.jianshu.com/u/e2d051b6d2e9", //简书
+      "zhihu" : "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
+      "toutiao" : false, //知乎
+      "juejin": "https://juejin.im/user/2796746683716990", //掘金
+      "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
+      "csdn" : false, //CSDN
+      "wechat" : "你的微信", //微信
+      "qq" : "你的QQ" //QQ
+    },
     "mottos": [{
       "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
       "en": "May you keep your original heart and kindness, and smile with warmth and magnanimity."
