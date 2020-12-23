@@ -78,3 +78,12 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+scripts
+
+.idea
+
+default.conf
+Dockerfile
+yarn.lock
+package.json
