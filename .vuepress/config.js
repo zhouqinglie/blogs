@@ -1,13 +1,13 @@
 module.exports = {
-  "title": "zealsay说你想说",
-  "description": "zealsay说你想说,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
+  "title": "周清冽",
+  "description": "记录我的生活",
   "dest": "dist",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "https://pan.zealsay.com/blog/favicon.ico"
+        "href": false
       }
     ],
     [
@@ -65,28 +65,16 @@ module.exports = {
     },
     "friendLink": [
       {
-        "title": "作者博客",
-        "desc": "zealsay说你想说",
-        "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
-        "link": "https://blog.zealsay.com"
+        "title": "我的博客",
+        "desc": "CSDN上的不成熟想法",
+        "logo": "/avatar.png",
+        "link": "https://blog.csdn.net/m0_63848276?type=blog"
       },
       {
-        "title": "另一个博客",
-        "desc": "vuepress_blog",
-        "logo": "https://pan.zealsay.com/blog/logo.png",
-        "link": "https://www.zealsay.com"
-      },
-      {
-        "title": "午后南杂",
-        "desc": "Enjoy when you can, and endure when you must.",
-        "logo": "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        "link": "https://www.recoluan.com"
-      },
-      {
-        "title": "zealsay开发指南",
-        "desc": "zealsay轻应用脚手架开发指南",
-        "logo": "https://pic.zealsay.com/20190909225214850000000.jpg",
-        "link": "https://docs.zealsay.com"
+        "title": "所欲为",
+        "desc": "我的公众号",
+        "logo": "/avatar.png",
+        "link": "https://mp.weixin.qq.com/s?__biz=MzkyMTM3MzE1Nw==&mid=2247483683&idx=1&sn=ba2792849fd0fd1557f299e2fd60321d&chksm=c185d1a9f6f258bf0fdd89417a085e7b161598ebe08e6d362e9cacbc419734cff3ab09c06f4c#rd"
       }
     ],
     "valineConfig": {
@@ -96,71 +84,130 @@ module.exports = {
       "enableQQ": true, //启用昵称框自动获取QQ昵称和QQ头像
       "requiredFields": ['nick', 'mail'], //设置必填项
     },
-    "logo": "/logo.png",
+    "logo": "/avatar.png",
     // "huawei": true, //首页出现华为文案
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "李白",
-    "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
-    "record": "你的备案号 ", //icp备案
-    "startYear": "2020",
-    "info": "一名追求技术喜欢安静的程序猿，目前在北京某互联网公司担任高级后台java开发。",
+    "author": "周清冽",
+    "authorAvatar": "/avatar.png",
+    "record": "备案号 ", //icp备案
+    "startYear": "2023",
+    "info": "一个坎坎坷坷，郁郁不得志的研究生",
     "socials":{
-      "github" : "https://github.com/GodLikeZeal", //github
+      "github" : "https://github.com/zhouqinglie", //github
       "gitlub" : false, //gitlub
-      "gitee" : "https://gitee.com/GodLikeZeal", //gitee
-      "jianshu" : "https://www.jianshu.com/u/e2d051b6d2e9", //简书
-      "zhihu" : "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
+      "gitee" : false, //gitee
+      "jianshu" : false, //简书
+      "zhihu" : "https://www.zhihu.com/people/hai-ya-zi-you-a", //知乎
       "toutiao" : false, //知乎
-      "juejin": "https://juejin.im/user/2796746683716990", //掘金
-      "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
-      "csdn" : false, //CSDN
-      "wechat" : "你的微信", //微信
-      "qq" : "你的QQ" //QQ
+      "juejin": false, //掘金
+      "segmentfault" : false, //思否
+      "csdn" : "https://blog.csdn.net/m0_63848276?type=blog", //CSDN
+      "wechat" : "YF916428059", //微信
+      "qq" : "916428059" //QQ
     },
-    "mottos": [{
-      "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
-      "en": "May you keep your original heart and kindness, and smile with warmth and magnanimity."
-    },
+    "mottos": [
       {
-        "zh": "年轻就是无限的可能。",
-        "en": "Youth means limitless possibilities."
+        "zh": "这个世界很喧嚣，做你自己就好。",
+        "en": "Amidst the clamor of the world, be true to yourself."
       },
       {
-        "zh": "真正的梦就是现实的彼岸。",
-        "en": "Real dream is the other shore of reality."
+      "zh": "清风徐来，水波不兴",
+      "en": " Amidst a gentle breeze, the water lies still and serene."
       },
       {
-        "zh": "不为模糊不清的未来担忧，只为清清楚楚的现在努力。",
-        "en": "Don't worry about the vague future, just strive for the clear present."
+        "zh": "飞跃山与海，看见最远方",
+        "en": "Leap over mountains and seas, and behold the farthest horizon."
       },
       {
-        "zh": "与其装腔作势企图影响别人，不如咬牙切齿狠命修理自己。",
-        "en": "Rather than pretending to influence others, it's better to grind your teeth and repair yourself."
-      }, {
-        "zh": "上天是公平的，只要努力就会有收获，否则就是你不够努力。",
-        "en": "God is fair, as long as effort will include results, otherwise is you hard enough."
+        "zh": "生当作人杰，死亦为鬼雄。",
+        "en": "Born to be a hero among men, in death a valiant ghost."
       },
       {
-        "zh": "人生没有后悔，我们只能尽力去不让自己后悔。",
-        "en": "Life without regret, we can only do our best to not to regret."
+        "zh": "懦夫从未启程，弱者死于途中。",
+        "en": "The coward never sets out on the journey, while the weak perish along the way."
+      },
+      {
+        "zh": "我吹过你吹过的晚风，我们算不算相拥？",
+        "en": "Have we embraced, by sharing the same evening breeze that once touched your face and now brushes mine?"
+      },
+      {
+        "zh": "锣鼓声声正月正，爆竹声里落尽一地的红。",
+        "en": "Drums and gongs resound in the first lunar month, as firecrackers fill the air with a shower of red."
       }
     ],
     "covers": [
-      'https://pan.zealsay.com/zealsay/cover/7.jpg',
-      'https://pan.zealsay.com/zealsay/cover/1.jpg',
-      'https://pan.zealsay.com/zealsay/cover/2.jpg',
-      'https://pan.zealsay.com/zealsay/cover/3.jpg',
-      'https://pan.zealsay.com/zealsay/cover/4.jpg',
-      'https://pan.zealsay.com/zealsay/cover/5.jpg',
-      'https://pan.zealsay.com/zealsay/cover/6.jpg'
+      '/cover6.png',
+      '/cover5.png',
+      '/cover4.png',
+      '/cover3.png',
+      '/cover2.png',
+      '/cover1.png',
+      '/cover7.png'
     ],
     "codeTheme": "tomorrow"
   },
   "markdown": {
     "lineNumbers": false
   },
+  "plugins":[
+    [
+      //鼠标点击特效， npm install vuepress-plugin-cursor-effects --save
+      "vuepress-plugin-cursor-effects",
+      {
+        size: 3,                    // size of the particle, default: 2
+        shape: ['circle'],  // shape of the particle, default: 'star'
+        zIndex: 999999999           // z-index property of the canvas, default: 999999999
+      }
+    ],
+    [
+      //动态标题
+    "dynamic-title",
+      {
+        showIcon: '/favicon.ico',
+        showText: "๑乛◡乛๑卡在了奇怪的地方",
+        hideIcon: '/favicon1.ico',
+        hideText: "∑(っ°Д°;)っ卧槽，不见了",
+        recoverTime: 2000
+      }
+    ],
+    [
+      "@vuepress-reco/vuepress-plugin-bgm-player",
+      {
+        audios: [
+          //本地歌曲
+          {
+            //名字
+            name: "东北民谣",
+            //作者
+            artist: "毛不易",
+            //地址
+            url: "/bgm/dbmy.mp3",
+            //封面图片
+            cover: "/bgm/dbmy.png",
+          },
+          {
+            //名字
+            name: "Lemon",
+            //作者
+            artist: "米津玄師",
+            //地址
+            url: "/bgm/lemon.mp3",
+            //封面图片
+            cover:
+              "/bgm/lemon.png",
+          },
+        ],
+        // 是否默认缩小
+        autoShrink: true,
+        // 缩小时缩为哪种模式
+        shrinkMode: "mini",
+        // 悬浮窗样式
+        floatStyle: { bottom: "80px", "z-index": "999999" },
+      },
+    ],
+  ]
   // configureWebpack: (config, isServer) => {
   //   if (!isServer) {
   //     // 修改客户端的 webpack 配置

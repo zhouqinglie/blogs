@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "author": "zeal",
   "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build .",
-    "upcdn": "vuepress build . && node ./scripts/upcdn.js"
+    "dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev .",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build .",
+    "upcdn": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build . && node ./scripts/upcdn.js"
   },
   "devDependencies": {
     "glob": "^7.1.6",
@@ -16,8 +16,13 @@
     "vuepress-theme-reco": "1.5.5"
   },
   "dependencies": {
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "aos": "^2.3.4",
-    "vue-class-component": "^7.2.3"
+    "vue-class-component": "^7.2.3",
+    "vue-server-renderer": "^2.7.14",
+    "vue-template-compiler": "^2.7.14",
+    "vuepress-plugin-cursor-effects": "^1.1.6",
+    "vuepress-plugin-dynamic-title": "^1.0.0"
   },
   "description": "blog for zeal"
 }

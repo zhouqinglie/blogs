@@ -6,7 +6,7 @@ tags:
  - java
  - vue
 categories:
- -  技术笔记
+ -  Tensorflow
 ---
 
 ::: tip 摘要

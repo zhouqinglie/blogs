@@ -1,8 +1,8 @@
 ---
 home: true
 all: true
-heroText: 愿你保持初心和善良,笑里尽是温暖与坦荡。
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 清风徐来，水波不兴。
+tagline: Amidst a gentle breeze, the water lies still and serene.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
